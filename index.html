@@ -21,19 +21,29 @@
     
     <div class="ui text container" style="margin-top:20px;">
 
-        <div style="width: 100%; text-align: center;">
+        <div style="width: 100%; text-align: center; margin-bottom: 25px;">
             <span style="font-family: 'Gelasio', serif; font-size:35px;">Curso Front-End</span>
         </div>   
 
-        <div class="ui error message">
-            
-            <div class="header">
-                Desafíos
+        <div class="ui two column grid">
+            <div class="column">
+              <div class="ui segment">
+                <a class="ui blue ribbon label">Dificultad <div class="ui star rating" data-rating="2" data-max-rating="5"></div></a>
+                
+                <p></p>
+                <span>CSS - Desafío Grupal - <a href="Files/Modulo 1/Paginas/2.- Desafío Grupal - Evaluación.pdf">Descargar</a> </span>
+               </div>
             </div>
-            <ul class="list">
-               <li>Desafío Grupal - Repostería - <strong>24</strong>/02/2020 y <strong>25</strong>/02/2020 - Finalizado - <a href="Files/Modulo 1/Paginas/1.- Desafío Grupal - Evaluación.pdf">Descargar</a> </li>
-            </ul>
-        </div>    
+
+            <div class="column">
+                <div class="ui segment">
+                  <a class="ui teal ribbon label">Dificultad <div class="ui star rating" data-rating="3" data-max-rating="5"></div></a>
+                  <p></p>
+                  <span>JavaScript - Desafío Individual - <a href="Files/Modulo 1/Paginas/1.- Desafío Individual - Evaluación.pdf">Descargar</a> </span>
+                 </div>
+              </div>
+        </div>
+        
 
         <div class="ui icon message">
            
@@ -1083,6 +1093,11 @@
     </div>
     <br>
 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script>
+       $('.ui.rating').rating('disable');
+    </script>
 </body>
 
 </html>
